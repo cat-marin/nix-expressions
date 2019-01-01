@@ -1,6 +1,6 @@
-{ stdenv, git }
+{ stdenv, git }:
 
-:stdenv.mkDerivation rec {
+stdenv.mkDerivation rec {
     name = "ttf-pixeloperator";
     version = "git";
 
